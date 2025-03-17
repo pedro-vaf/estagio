@@ -1,6 +1,6 @@
 # Testes Técnicos
 
-Este repositório contém dois testes técnicos desenvolvidos em **C#** e **C**.
+Este repositório contém testes técnicos desenvolvidos em **C#** e **C**.
 
 ## Estrutura do Repositório
 
