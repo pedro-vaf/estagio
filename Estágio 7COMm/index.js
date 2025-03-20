@@ -7,7 +7,7 @@ Sua tarefa: Considerando essa sequência começando por 5, 6, 8, calcule e impri
 
 function sequenciaX (antepenultimo, penultimo, atual, aux) {
     if (aux === 50) {
-        console.log(`O quinguagésimo termo é: ${atual}`);
+        console.log(`O quinquagésimo termo é: ${atual}`);
         return;
     }
     sequenciaX(penultimo, atual, penultimo + antepenultimo, aux + 1);
