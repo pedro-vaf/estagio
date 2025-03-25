@@ -10,7 +10,7 @@ public class BuscarUsuario {
             if (usuarios.isEmpty())
                 throw new Exception("Lista vazia, seção cadastro será acessada automaticamente!");
 
-            System.out.print("Digite o nome completo ou parte do que deseja buscar: ");
+            System.out.print("Digite o nome completo ou parte do nome do usuário que deseja buscar: ");
             String nome = sc.nextLine().trim().toLowerCase();
 
             List<CadastroUsuario> usuarioEncontrado =
